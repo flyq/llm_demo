@@ -48,7 +48,7 @@ def reverse_string(s):
 **llama 2** model
 ```sh
  Sure! Here's a Python function for checking whether a given string is a palindrome or not:
-````
+
 def is_palindrome(str):
    """
    Returns True if the given string is a palindrome, False otherwise.
@@ -56,7 +56,7 @@ def is_palindrome(str):
    A palindrome is a string that reads the same backward as forward.
    """
    return str == str[::-1]
-````
+
 I hope this helps! Let me know if you have any questions or need further clarification.
 
 
