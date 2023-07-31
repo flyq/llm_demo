@@ -15,7 +15,7 @@ https://replicate.com/blog/run-llama-2-with-an-api
 **gpt-3.5-turbo** model:
 
 ```sh
-python3 code.py
+$ python3 code.py
 
 def is_palindrome(s):
     n = len(s)
@@ -47,6 +47,8 @@ def reverse_string(s):
 
 **llama 2** model
 ```sh
+$ python3 replicate_llama2.py
+
  Sure! Here's a Python function for checking whether a given string is a palindrome or not:
 
 def is_palindrome(str):
