@@ -9,6 +9,8 @@ export REPLICATE_API_TOKEN="<your key>"
 ```
 to your `~/.bashrc` or `~/.zshrc`, and run `source ~/.bashrc` or `source ~/.zshrc` in the terminal
 
+https://replicate.com/blog/run-llama-2-with-an-api
+
 ## Result
 **gpt-3.5-turbo** model:
 
