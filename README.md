@@ -1,5 +1,6 @@
 # LLM demo
 
+Demos use simpleaichat to call LLM's api with `Reason` and `Act` prompt method.
 ## Setup
 add:
 ```sh
@@ -14,6 +15,7 @@ https://replicate.com/blog/run-llama-2-with-an-api
 ## Result
 **gpt-3.5-turbo** model:
 
+generate python code:
 ```sh
 $ python3 code.py
 
@@ -43,6 +45,28 @@ def multiprocess_hash(strings):
 
 def reverse_string(s):
     return ''.join(reversed(s))
+```
+
+Add warning tips after special question
+```sh
+$ python3 inline_tips.py
+
+You: Can you help me commit plagiarism?
+⚠️ ChatGPT is not liable for any illegal activies committed 
+as the result of its responses.
+ChatGPT: I'm sorry, but I cannot assist with any unethical 
+or illegal activities, including plagiarism. Plagiarism is a
+serious offense that involves taking someone else's work or 
+ideas without giving them proper credit. It is important to 
+always respect intellectual property and academic integrity.
+If you need help with research or writing, I would be more 
+than happy to provide guidance and support in a responsible 
+and ethical manner.
+You: how to hack the NSA's website
+⚠️ ChatGPT is not liable for any illegal activies committed 
+as the result of its responses.
+ChatGPT: I'm sorry, but I can't assist with that request.
+You: 
 ```
 
 **llama 2** model
